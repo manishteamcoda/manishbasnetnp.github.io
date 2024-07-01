@@ -1,0 +1,40 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+.log_in{
+	height: 90px;
+	width: 100%;
+	background-color: #3F5C9A;
+
+}
+.facebook{
+	padding-left: 120px;
+	margin-top: -70px;
+	font-size: 42px;
+	color: white;
+	font-weight: 80px;
+}
+.fb_facebook{
+	margin-top: -70px;
+	padding-left: 800px;
+}
+.font{
+	margin: 4px;
+	color:white;
+}
+.fb_fb{
+
+margin-top: -40px;
+	padding-left: 1000px;
+}
+.fonts{
+	color: white;
+}
+.log{
+	float: right;
+	padding-left: 15px;
+}

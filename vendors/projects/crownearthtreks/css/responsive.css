@@ -1,0 +1,20 @@
+/* Big tablet - 1024px - 1200px
+*****************************************/
+
+@media only screen and (max-width: 1200px) {
+	.menu{
+		width: 100%;
+		padding: 0 10%;
+	}
+/*
+	.row { padding: 0 2%; }
+}
+*/
+
+    /* Tablets - 768px - 1023px
+*****************************************/
+
+@media only screen and (max-width: 1023px) {
+	body {
+		font-size: 18px;
+	}

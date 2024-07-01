@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	margin:0px;
+	padding:0px;
+	font-family:Verdana, Geneva, sans-serif;
+	
+}
+#header
+{
+	width:100%;
+	height:90px;
+	background:#FFF;
+	border-bottom:1px solid #999;
+	position:fixed;
+	top:0px;
+	left:0px;
+}
+.logo
+{
+	float:left;
+}
+.menu
+{
+	float:right;
+	margin-top:15px;
+	
+}
+.menu ul
+{
+	list-style:none;
+}
+.menu ul li
+{
+	float:left;
+}
+.menu ul li a
+{
+	
+	text-decoration:none;
+	color:#848C25;
+	padding:10px;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:14px;
+}
+#slider
+{
+	width:100%;
+	min-height:550px;
+	background:url(../img/1.jpg);
+	margin-top:90px;
+}
+#featured
+{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	text-align:center;
+	padding-top:20px;
+	
+}
+#featured h2
+{
+	color:#307BD1;
+}
+.small_width
+{
+	width:650px;
+	margin:auto;
+}
+#featured img
+{
+	margin-right:10px;
+	margin-top:20px;
+	
+}
+.small_border
+{
+	width:200px;
+	height:2px;
+	background:#000;
+	margin:auto;
+	margin-top:20px;
+}
+
+#popular
+{
+	width:100%;
+	min-height:450px;
+	background:url(../img/bg1.jpg) center;
+	text-align:center;
+	color:#FFF;
+	padding-top:20px;
+	
+}
+#popular img
+{
+	margin-top:20px;
+	margin-right:20px;
+	padding-bottom:20px;
+}
+#blog
+{
+	width:1000px;
+	background:#F8F8F8;
+	min-height:300px;
+	margin:70px auto;
+	
+}
+.blog_left
+{
+	width:40%;
+	float:left;
+	padding-left:90px;
+	padding-top:20px;
+	
+}
+.blog_right
+{
+	width:40%;
+	float:right;
+	text-align:right;
+}
+#footer
+{
+	width:100%;
+	min-height:400px;
+	background:url(../img/sample_building.jpg) center;
+}
+#footer_inner
+{
+	width:1000px;
+	margin:auto;
+	
+}
+.footer_left
+{
+	width:40%;
+	float:left;
+}
+.footer_right
+{
+	width:40%;
+	float:right;
+	color:#fff;
+}
+#copyright
+{
+	width:100%;
+	background:#1B4485;
+	min-height:50px;
+	color:#fff;
+}
+
+/*Contact Us Page */
+#breadcrum
+{
+	width:100%;
+	height:130px;
+	background:#848C25;
+	color:#fff;
+	padding-top:90px; 
+	box-sizing:border-box;  
+	
+}
+#breadcrum1
+{
+	width:1000px;
+	margin:auto;
+}
+#page_content
+{
+	text-align:center;
+	color:#000;
+	
+	
+	
+	 
+	 
