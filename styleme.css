@@ -1,24 +1,66 @@
+/* General styles for the body */
 body {
     font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
 }
 
+/* Styles for the h1 element */
 h1 {
-    color: blue;
+    color: #2a52be;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
+/* Styles for paragraph elements */
 p {
-    font-size: 14px;
+    color: #333;
+    font-size: 16px;
     line-height: 1.5;
 }
 
+/* Styles for unordered lists */
 ul {
     list-style-type: square;
+    padding-left: 20px;
 }
 
+/* Styles for ordered lists */
 ol {
     list-style-type: decimal;
+    padding-left: 20px;
 }
 
+/* Styles for images */
 img {
-    border: 2px solid black;
+    border: 2px solid #000;
+    display: block;
+    margin: 10px 0;
+}
+
+/* Change background color of the page */
+body {
+    background-color: #e6e6fa;
+}
+
+/* Change font properties of at least two elements */
+h2 {
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a {
+    color: #8b0000;
+    font-family: 'Verdana', sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Center-align text for headings */
+h1, h2 {
+    text-align: center;
 }
