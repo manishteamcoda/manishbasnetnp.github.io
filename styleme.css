@@ -1,66 +1,100 @@
-/* General styles for the body */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 20px;
-}
-
-/* Styles for the h1 element */
-h1 {
-    color: #2a52be;
-    font-family: 'Trebuchet MS', sans-serif;
-}
-
-/* Styles for paragraph elements */
-p {
+    background-color: #f0f8ff; /* AliceBlue */
+    font-family: 'Verdana', sans-serif;
     color: #333;
-    font-size: 16px;
-    line-height: 1.5;
 }
 
-/* Styles for unordered lists */
-ul {
-    list-style-type: square;
-    padding-left: 20px;
+#legend {
+    border-bottom: 2px solid #4682b4; /* SteelBlue */
+    padding-bottom: 10px;
 }
 
-/* Styles for ordered lists */
-ol {
-    list-style-type: decimal;
-    padding-left: 20px;
+h1 {
+    color: #2e8b57; /* SeaGreen */
+    font-size: 2.5em;
 }
 
-/* Styles for images */
-img {
-    border: 2px solid #000;
-    display: block;
+h2 {
+    color: #ff4500; /* OrangeRed */
+    font-size: 2em;
+}
+
+p {
+    font-family: 'Georgia', serif;
+    font-size: 1.1em;
+    line-height: 1.6;
     margin: 10px 0;
 }
 
-/* Change background color of the page */
-body {
-    background-color: #e6e6fa;
+p:first-letter {
+    font-size: 200%;
+    font-weight: bold;
+    color: #8b0000; /* DarkRed */
 }
 
-/* Change font properties of at least two elements */
-h2 {
-    font-family: 'Georgia', serif;
-    font-size: 24px;
+table tr td {
+    width: auto;
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #e9f5ff;
+}
+
+table > caption {
+    color: #006400; /* DarkGreen */
+    font-family: 'Courier New', monospace;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+ol {
+    counter-reset: item 10;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+ol li {
+    counter-increment: item -1;
+    list-style-type: none;
+    margin: 5px 0;
+}
+
+ol li:before {
+    content: counter(item) ". ";
     font-weight: bold;
+    color: #4682b4; /* SteelBlue */
 }
 
 a {
-    color: #8b0000;
-    font-family: 'Verdana', sans-serif;
+    color: #4682b4;
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 a:hover {
     text-decoration: underline;
+    color: #ff4500; /* OrangeRed */
 }
 
-/* Center-align text for headings */
-h1, h2 {
-    text-align: center;
+dl {
+    margin-left: 30px;
+    font-family: 'Tahoma', sans-serif;
+}
+
+dt {
+    color: #d2691e; /* Chocolate */
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+dd {
+    margin-bottom: 10px;
+    margin-left: 40px;
 }
