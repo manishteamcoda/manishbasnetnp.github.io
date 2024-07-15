@@ -75,3 +75,34 @@ console.assert(findLongestWord(['apple', 'banana', 'cherry']) === 6, "Expected o
 
 console.log("Expected output of filterLongWords(['apple', 'banana', 'cherry'], 5) is ['banana', 'cherry'] and " + myFunctionTest(['banana', 'cherry'].toString(), function() { return filterLongWords(['apple', 'banana', 'cherry'], 5).toString(); }));
 console.assert(filterLongWords(['apple', 'banana', 'cherry'], 5).toString() === ['banana', 'cherry'].toString(), "Expected output of filterLongWords(['apple', 'banana', 'cherry'], 5) is ['banana', 'cherry']");
+
+
+
+
+const a = [1, 3, 5, 3, 3];
+
+// a) Multiply each element by 10
+const multipliedByTen = a.map(function(elem) {
+    return elem * 10;
+});
+console.log("Array elements multiplied by 10:", multipliedByTen);
+
+// b) Return array with all elements equal to 3
+const allThrees = a.map(function() {
+    return 3;
+});
+console.log("Array with all elements equal to 3:", allThrees);
+
+// c) Return the product of all elements
+const productOfAllElements = a.reduce(function(prevValue, elem) {
+    return prevValue * elem;
+}, 1);
+console.log("Product of all elements:", productOfAllElements);
+
+// Original code for reference and further use
+const b = a.map(function(elem, i, array) {
+  return elem + 3;
+});
+console.log(b);
+
+const c = a.filter
