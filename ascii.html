@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>ASCII animations</title>
+    <link href="ascii.css" type="text/css" rel="stylesheet" />
+    <script src="animations.js" type="text/javascript"></script>
+    <script src="ascii.js" type="text/javascript"></script>
+</head>
+<body>
+    <h1>CS472: ASCII Animation Viewer</h1>
+    <fieldset class="fieldset">
+        <textarea id="animationArea" rows="20" cols="80"></textarea>
+    </fieldset>
+    <fieldset id="fieldcontainer">
+        <fieldset class="field">
+            <legend>Play Controls</legend>
+            <table>
+                <tr>
+                    <td>
+                        <button type="button" id='btnPlay'>Play</button>
+                        <button type="button" id='btnStop'>Stop</button>
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset class="field">
+            <legend>Animation</legend>
+            <select id="animationType">
+                <option value="-1">Blank</option>
+                <option value="0">Excercise</option>
+                <option value="1">Juggler</option>
+                <option value="2">Bike</option>
+                <option value="3">Dive</option>
+                <option value="4">Custom</option>
+            </select>
+        </fieldset>
+        <fieldset class="field">
+            <legend>Size</legend>
+            <select id="animationSize">
+                <option value="16">Tiny</option>
+                <option value="18">Small</option>
+                <option value="20">Meduim</option>
+                <option value="22">Large</option>
+                <option value="24">Extra Large</option>
+                <option value="26">XXL</option>
+            </select>
+        </fieldset>
+        <fieldset class="field">
+            <legend>Speed</legend>
+            <input id="turboCheckbox" type="checkbox" name="Speed" value="turbo" />
+        </fieldset>
+    </fieldset>
+</body>
+
+</html>
